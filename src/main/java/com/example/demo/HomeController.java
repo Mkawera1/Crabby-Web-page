@@ -10,5 +10,9 @@ public class HomeController {
     public String CrabbyRecipe(){
         return "CrabbyRecipe";
     }
+    @GetMapping("/About")
+    public String About(){
+        return "About";
+    }
 }
 
